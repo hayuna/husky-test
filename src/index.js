@@ -4,10 +4,7 @@ const aa = () => {
 
 aa();
 
+console.log('test');
 
-console.log('test')
-
-let a = 0;
-
-
-
+const a = [];
+a.push(0);
