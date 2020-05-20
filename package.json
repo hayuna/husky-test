@@ -19,7 +19,7 @@
   "homepage": "https://github.com/hayuna/husky-test#readme",
   "dependencies": {
     "eslint": "^7.0.0",
-    "husky": "^4.2.5",
+    "husky": "^3.1.0",
     "lint-staged": "^10.2.4",
     "prettier": "^2.0.5"
   },
@@ -28,10 +28,13 @@
       "ecmaVersion": 6
     },
     "rules": {
-      "prefer-const": [2, {
-        "destructuring": "any",
-        "ignoreReadBeforeAssign": false
-      }],
+      "prefer-const": [
+        2,
+        {
+          "destructuring": "any",
+          "ignoreReadBeforeAssign": false
+        }
+      ],
       "no-var": 2,
       "no-unused-vars": 2,
       "eqeqeq": 2,
