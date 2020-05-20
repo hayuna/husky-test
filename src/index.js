@@ -5,4 +5,6 @@ const aa = () => {
 aa();
 
 
+console.log('test')
 
+let a = 0;
