@@ -37,7 +37,8 @@
       "eqeqeq": 2,
       "dot-notation": 2,
       "camelcase": 2,
-      "no-multi-spaces": 2
+      "no-multi-spaces": 2,
+      "no-console": 1
     }
   },
   "prettier": {
