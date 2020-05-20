@@ -22,5 +22,38 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.4",
     "prettier": "^2.0.5"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "rules": {
+      "prefer-const": [2, {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }],
+      "no-var": 2,
+      "no-unused-vars": 2,
+      "eqeqeq": 2,
+      "dot-notation": 2,
+      "camelcase": 2,
+      "no-multi-spaces": 2
+    }
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
