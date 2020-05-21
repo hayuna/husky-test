@@ -1,20 +1,34 @@
 # Installation
-- Download nodeJS from [official](https://nodejs.org/en/download/) site
-### HERE WILL BE SCREENS
+- Download NodeJS from [official](https://nodejs.org/en/download/) site
+![](images/1.png)
+- Go through wizard and install NodeJS
+
+![](images/2.png)
+![](images/3.png)
+![](images/4.png)
+![](images/5.png)
+![](images/6.png)
+![](images/7.png)
+![](images/8.png)
 - Go to project and in terminal type following command to install required dependencies
 ```code 
 npm i
 ```
-### HERE WILL BE SCREENS FOR INTELLIJ AND VSCODE
-- If there are some errors, just restart terminal / editor
+### IntelliJ
+![](images/9.png)
+![](images/10.png)
+### VSCode
+![](images/11.png)
+![](images/12.png)
+- If there are some errors, just restart editor
 
 <hr style="background-color: red;" />
 
 # Steps to check code
+*It is affected only for changed files. At the moment only files with extension .js and .cmp are processed*
 - Commit your code
-### HERE WILL BE SCREENS FOR SOURCETREE AND TERMINAL
 - In sourcetree we get a log which changes need to be fixed manually
-### HERE WILL BE SCREENS FOR SOURCETREE AND TERMINAL
+![](images/13.png)
 - If something can be fix automatically, It does during commit
 
 <hr style="background-color: red;" />
